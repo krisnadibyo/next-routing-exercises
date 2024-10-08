@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-function ScreenSaverPickLayout({ children }) {
+function ScreenSaverLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
@@ -10,4 +10,4 @@ function ScreenSaverPickLayout({ children }) {
   );
 }
 
-export default ScreenSaverPickLayout;
+export default ScreenSaverLayout;
